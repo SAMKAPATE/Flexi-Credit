@@ -14,7 +14,7 @@ Features:
 import sqlite3
 import os
 from contextlib import contextmanager
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from typing import List, Dict, Any, Optional, Tuple
 
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "vehicle_documents.db")
